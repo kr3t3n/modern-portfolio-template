@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Template - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navigation" aria-label="Main Navigation">
+    <div class="navigation__logo">
+      <a href="index.html" class="navigation__logo-link">Portfolio</a>
+    </div>
+
+    <ul class="navigation__links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button class="navigation__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="navigation__hamburger-icon"></span>
+    </button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__content">
+      <h1 class="hero__title">Hi, I'm <span class="hero__name">Your Name</span></h1>
+      <p class="hero__subtitle">I create beautiful digital experiences</p>
+      <div class="hero__cta">
+        <a href="#projects" class="button button--primary">View My Work</a>
+        <a href="contact.html" class="button button--secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__background">
+      <img src="https://picsum.photos/1920/1080" alt="Hero background" class="hero__background-image">
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="https://picsum.photos/800/600?random=1" alt="Project 1 - Web Design Project" loading="lazy">
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Project One</h3>
+            <p class="project-card__description">A brief description of the project and its key features.</p>
+            <div class="project-card__tags">
+              <span class="tag">Web Design</span>
+              <span class="tag">Frontend</span>
+            </div>
+            <a href="#" class="project-card__link">View Project <span class="sr-only">Project One</span></a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="https://picsum.photos/800/600?random=2" alt="Project 2 - UI/UX Design Project" loading="lazy">
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Project Two</h3>
+            <p class="project-card__description">A brief description of the project and its key features.</p>
+            <div class="project-card__tags">
+              <span class="tag">UI/UX</span>
+              <span class="tag">Mobile</span>
+            </div>
+            <a href="#" class="project-card__link">View Project <span class="sr-only">Project Two</span></a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="https://picsum.photos/800/600?random=3" alt="Project 3 - Backend Development Project" loading="lazy">
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Project Three</h3>
+            <p class="project-card__description">A brief description of the project and its key features.</p>
+            <div class="project-card__tags">
+              <span class="tag">Backend</span>
+              <span class="tag">API</span>
+            </div>
+            <a href="#" class="project-card__link">View Project <span class="sr-only">Project Three</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <p class="footer__copyright">&copy; <span id="year">2024</span> Your Name. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html> 

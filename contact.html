@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Template - Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navigation" aria-label="Main Navigation">
+    <div class="navigation__logo">
+      <a href="index.html" class="navigation__logo-link">Portfolio</a>
+    </div>
+
+    <ul class="navigation__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+
+    <button class="navigation__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="navigation__hamburger-icon"></span>
+    </button>
+  </nav>
+
+  <section class="contact">
+    <div class="container">
+      <h1 class="section-title">Get in Touch</h1>
+      <div class="contact__content">
+        <div class="contact__info">
+          <p class="contact__text">
+            Have a project in mind or want to discuss potential opportunities? I'd love to hear from you. Fill out the form below, and I'll get back to you as soon as possible.
+          </p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <span class="contact__detail-icon">📧</span>
+              <a href="mailto:your.email@example.com" class="contact__detail-text">your.email@example.com</a>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__detail-icon">📱</span>
+              <a href="tel:+1234567890" class="contact__detail-text">+1 (234) 567-890</a>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__detail-icon">📍</span>
+              <span class="contact__detail-text">Your Location, Country</span>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="name" class="form-input" required
+                   aria-required="true" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" required
+                   aria-required="true" placeholder="your.email@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-input" required
+                   aria-required="true" placeholder="What's this about?">
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-input form-textarea" required
+                      aria-required="true" placeholder="Your message here..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="button button--primary">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <p class="footer__copyright">&copy; <span id="year">2024</span> Your Name. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html> 
